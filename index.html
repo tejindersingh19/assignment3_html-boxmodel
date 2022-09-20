@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 - HTML Box Model</title>
+
+    <style>
+              @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+              * {
+        font-family: "Roboto", sans-serif;
+        line-height: 1.8rem;
+      }
+
+      h2{
+        margin: 20px 0 0 2px;
+        padding:8px 0;
+        display: inline-block;
+        color:red;
+        width:342px;
+        border-bottom: 3px solid red; 
+        transition: width 2s;
+      }
+
+      h2:hover{
+        width:100%;
+        cursor: pointer;
+      }
+
+      a{
+        font-size: 16px;
+        color:blue;
+        transition: color 0.5s,font-size 0.5s,font-weight 0.5s;
+      }
+
+      a:hover{
+        color:red;
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+    </style>
+</head>
+<body>
+    <h2>Assignment 3 - HTML Box Code</h2>
+    <ul>
+        <li><a href="./index1.html">Indian Flag - <i>(index1.html)</i></a></li>
+        <li><a href="./index2.html">Romanian Flag - <i>(index2.html)</i></a></li>
+        <li><a href="./index3.html">Hot Air Ballon - <i>(index3.html)</i></a></li>
+    </ul>
+</body>
+</html>
